@@ -1,0 +1,17 @@
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/ScmStatusTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/DependencyFilterIT.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/BasePitMojoTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/report/ReportSourceLocatorParamaterizedTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/MojoToReportOptionsConverterTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/report/generator/ReportGenerationManagerTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/report/generator/XMLReportGeneratorTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/RunDecisionTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/SystemTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/PathToJavaClassConverterTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/PitMojoTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/NonEmptyProjectCheckIT.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/report/generator/HTMLReportGeneratorTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/report/ReportSourceLocatorTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/ScmMojoTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/report/PitReportMojoTest.java
+/Users/Aaron/Documents/PIT-Enhancement/pitest-maven/src/test/java/org/pitest/maven/SurefireConfigConverterTest.java
