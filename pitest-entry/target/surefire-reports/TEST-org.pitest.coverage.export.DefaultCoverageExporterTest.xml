@@ -64,6 +64,6 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldExportSuppliedCoverage" classname="org.pitest.coverage.export.DefaultCoverageExporterTest" time="0.005"/>
-  <testcase name="shouldWriteValidXMLDocumentWhenNoCoverage" classname="org.pitest.coverage.export.DefaultCoverageExporterTest" time="0"/>
-  <testcase name="shouldEscapeSpecialCharsInTestName" classname="org.pitest.coverage.export.DefaultCoverageExporterTest" time="0.001"/>
+  <testcase name="shouldWriteValidXMLDocumentWhenNoCoverage" classname="org.pitest.coverage.export.DefaultCoverageExporterTest" time="0.001"/>
+  <testcase name="shouldEscapeSpecialCharsInTestName" classname="org.pitest.coverage.export.DefaultCoverageExporterTest" time="0"/>
 </testsuite>

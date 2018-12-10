@@ -29,7 +29,6 @@ public class ClassInfo {
 
   public boolean isGroovyClass() {
     return FArray.contains(this.interfaces, isAGroovyClass());
-    //return false;
   }
 
   private static Predicate<String> isAGroovyClass() {

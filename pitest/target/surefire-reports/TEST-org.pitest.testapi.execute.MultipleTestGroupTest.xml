@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.testapi.execute.MultipleTestGroupTest" time="0.089" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.testapi.execute.MultipleTestGroupTest" time="0.105" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
@@ -64,6 +64,6 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldStopExecutingWhenResultCollectorRequestsStop" classname="org.pitest.testapi.execute.MultipleTestGroupTest" time="0"/>
-  <testcase name="shouldObeyHashcodeEqualsContract" classname="org.pitest.testapi.execute.MultipleTestGroupTest" time="0.088"/>
+  <testcase name="shouldObeyHashcodeEqualsContract" classname="org.pitest.testapi.execute.MultipleTestGroupTest" time="0.104"/>
   <testcase name="shouldExecuteAllChildren" classname="org.pitest.testapi.execute.MultipleTestGroupTest" time="0.001"/>
 </testsuite>

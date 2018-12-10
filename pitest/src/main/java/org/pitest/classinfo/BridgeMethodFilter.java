@@ -25,11 +25,9 @@ F5<Integer, String, String, String, String[], Boolean> {
   @Override
   public Boolean apply(final Integer access, final String name,
       final String desc, final String signature, final String[] exceptions) {
-    return (isSynthetic(access)  );
-  
+    return (isSynthetic(access));
   }
-  //&& !desc.contains("groovy/lang/MetaClass") && !desc.contains("Ljava/lang/Object") 
-  //&& !desc.startsWith("()Lgroovy/lang/MetaClass")
+
   private static boolean isSynthetic(final Integer access) {
     return (access & Opcodes.ACC_BRIDGE) == 0;
   }

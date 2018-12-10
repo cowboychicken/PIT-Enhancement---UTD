@@ -63,7 +63,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldRecordDirectDependenciesFromCallingNew" classname="org.pitest.dependency.DependencyClassVisitorTest" time="0.024"/>
-  <testcase name="shouldRecordDependenciesFromMethodCalls" classname="org.pitest.dependency.DependencyClassVisitorTest" time="0.012"/>
-  <testcase name="shouldRecordDependenciesFromInitializedFields" classname="org.pitest.dependency.DependencyClassVisitorTest" time="0.012"/>
+  <testcase name="shouldRecordDirectDependenciesFromCallingNew" classname="org.pitest.dependency.DependencyClassVisitorTest" time="0.023"/>
+  <testcase name="shouldRecordDependenciesFromMethodCalls" classname="org.pitest.dependency.DependencyClassVisitorTest" time="0.011"/>
+  <testcase name="shouldRecordDependenciesFromInitializedFields" classname="org.pitest.dependency.DependencyClassVisitorTest" time="0.014"/>
 </testsuite>

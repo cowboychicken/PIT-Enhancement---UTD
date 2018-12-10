@@ -54,6 +54,7 @@ import org.pitest.mutationtest.engine.gregor.mutators.ArithmeticOperandDeleteMut
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////
+
 import org.pitest.functional.FCollection;
 import org.pitest.functional.prelude.Prelude;
 import org.pitest.help.Help;
@@ -88,8 +89,9 @@ public final class Mutator {
   private static final Map<String, Iterable<MethodMutatorFactory>> MUTATORS = new LinkedHashMap<>();
 
   static {
-
-    
+    /**
+     * Additional mutator - MathMutator for Groovy
+     */
     add("GMM", NewMathMutator.GROOVY_MATH_MUTATOR);
 
     /**
@@ -274,30 +276,8 @@ public final class Mutator {
         VoidMethodCallMutator.VOID_METHOD_CALL_MUTATOR,
         NegateConditionalsMutator.NEGATE_CONDITIONALS_MUTATOR,
         ConditionalsBoundaryMutator.CONDITIONALS_BOUNDARY_MUTATOR,
-        IncrementsMutator.INCREMENTS_MUTATOR,
-        
-        // CUSTOM MUTATORS FROM PHASE I
-        RelationalOperatorReplacementMutator1.RELATIONAL_OPERATOR_REPLACEMENT_MUTATOR,
-        RelationalOperatorReplacementMutator2.RELATIONAL_OPERATOR_REPLACEMENT_MUTATOR,
-        RelationalOperatorReplacementMutator3.RELATIONAL_OPERATOR_REPLACEMENT_MUTATOR,
-        RelationalOperatorReplacementMutator4.RELATIONAL_OPERATOR_REPLACEMENT_MUTATOR,
-        RelationalOperatorReplacementMutator5.RELATIONAL_OPERATOR_REPLACEMENT_MUTATOR,
-        RelationalOperatorReplacementMutator6.RELATIONAL_OPERATOR_REPLACEMENT_MUTATOR,
-        RelationalOperatorReplacementMutator7.RELATIONAL_OPERATOR_REPLACEMENT_MUTATOR,
-        ArithmeticOperatorReplacementMutator1.MATH_MUTATOR,
-        ArithmeticOperatorReplacementMutator2.MATH_MUTATOR,
-        ArithmeticOperatorReplacementMutator3.MATH_MUTATOR,
-        ArithmeticOperatorReplacementMutator4.MATH_MUTATOR,
-        ArithmeticOperatorReplacementMutator5.MATH_MUTATOR,
-        ArithmeticOperatorReplacementMutator6.MATH_MUTATOR,
-        ArithmeticOperatorReplacementMutator7.MATH_MUTATOR,
-        ArithmeticOperatorReplacementMutator8.MATH_MUTATOR,
-        ArithmeticOperatorReplacementMutator9.MATH_MUTATOR,
-        ArithmeticOperatorReplacementMutator10.MATH_MUTATOR,
-        ArithmeticOperandDeleteMutator1.MATH_MUTATOR,
-        ArithmeticOperandDeleteMutator2.AOD_MUTATOR   
-        );
-    }
+        IncrementsMutator.INCREMENTS_MUTATOR);
+  }
 
   /**
    * Proposed new defaults - replaced the RETURN_VALS mutator with the new more stable set

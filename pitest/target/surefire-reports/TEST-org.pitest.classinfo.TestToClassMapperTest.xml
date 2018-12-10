@@ -64,6 +64,6 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="shouldReturnNoneWhenNoTesteeExistsMatchingNamingConvention" classname="org.pitest.classinfo.TestToClassMapperTest" time="0"/>
-  <testcase name="shouldMapTestsPrefixedWithTestToTesteeWhenTesteeExists" classname="org.pitest.classinfo.TestToClassMapperTest" time="0.001"/>
-  <testcase name="shouldMapTestsPostfixedWithTestToTesteeWhenTesteeExists" classname="org.pitest.classinfo.TestToClassMapperTest" time="0"/>
+  <testcase name="shouldMapTestsPrefixedWithTestToTesteeWhenTesteeExists" classname="org.pitest.classinfo.TestToClassMapperTest" time="0"/>
+  <testcase name="shouldMapTestsPostfixedWithTestToTesteeWhenTesteeExists" classname="org.pitest.classinfo.TestToClassMapperTest" time="0.001"/>
 </testsuite>

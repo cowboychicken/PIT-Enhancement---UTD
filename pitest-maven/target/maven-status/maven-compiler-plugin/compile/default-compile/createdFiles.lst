@@ -22,6 +22,7 @@ org/pitest/maven/NonEmptyProjectCheck$1.class
 org/pitest/maven/SurefireConfigConverter$1.class
 org/pitest/maven/AbstractPitMojo.class
 org/pitest/maven/report/PitReportMojo.class
+HelpMojo.class
 org/pitest/maven/report/generator/ReportGenerationManager.class
 org/pitest/maven/MojoToReportOptionsConverter.class
 org/pitest/maven/PathToJavaClassConverter.class

@@ -79,6 +79,6 @@
   <testcase name="flattenShouldReturnCollectionContainingAllSuppliedValues" classname="org.pitest.functional.FCollectionTest" time="0"/>
   <testcase name="shouldSplitCollectionIntoOneBucketWhenListSizeEqualToBucketSize" classname="org.pitest.functional.FCollectionTest" time="0"/>
   <testcase name="containsShouldReturnTrueWhenPredicateMet" classname="org.pitest.functional.FCollectionTest" time="0"/>
-  <testcase name="flatMapShouldTreatNullAsEmptyIterable" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
-  <testcase name="shouldReturnOnlyMatchesToPredicate" classname="org.pitest.functional.FCollectionTest" time="0"/>
+  <testcase name="flatMapShouldTreatNullAsEmptyIterable" classname="org.pitest.functional.FCollectionTest" time="0"/>
+  <testcase name="shouldReturnOnlyMatchesToPredicate" classname="org.pitest.functional.FCollectionTest" time="0.001"/>
 </testsuite>

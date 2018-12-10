@@ -318,6 +318,13 @@ Call mvn pitest:help -Ddetail=true -Dgoal=&lt;goal-name&gt; to display parameter
           <description>When set indicates that analysis of this project should be skipped</description>
         </parameter>
         <parameter>
+          <name>skipFailingTests</name>
+          <type>boolean</type>
+          <required>false</required>
+          <editable>true</editable>
+          <description>When set will ignore failing tests when computing coverage. Otherwise, the run will fail. If parseSurefireConfig is true, will be overridden from surefire configuration property testFailureIgnore</description>
+        </parameter>
+        <parameter>
           <name>skipTests</name>
           <type>boolean</type>
           <required>false</required>
@@ -433,6 +440,7 @@ Call mvn pitest:help -Ddetail=true -Dgoal=&lt;goal-name&gt; to display parameter
         <parseSurefireConfig implementation="boolean" default-value="true"/>
         <reportsDirectory implementation="java.io.File" default-value="${project.build.directory}/pit-reports">${reportsDirectory}</reportsDirectory>
         <skip implementation="boolean" default-value="false"/>
+        <skipFailingTests implementation="boolean" default-value="false"/>
         <skipTests implementation="boolean" default-value="false"/>
         <targetClasses implementation="java.util.ArrayList">${targetClasses}</targetClasses>
         <targetTests implementation="java.util.ArrayList">${targetTests}</targetTests>
@@ -964,6 +972,13 @@ To successfully aggregate reports, each of the individual sub-module reports mus
           <description>When set indicates that analysis of this project should be skipped</description>
         </parameter>
         <parameter>
+          <name>skipFailingTests</name>
+          <type>boolean</type>
+          <required>false</required>
+          <editable>true</editable>
+          <description>When set will ignore failing tests when computing coverage. Otherwise, the run will fail. If parseSurefireConfig is true, will be overridden from surefire configuration property testFailureIgnore</description>
+        </parameter>
+        <parameter>
           <name>skipTests</name>
           <type>boolean</type>
           <required>false</required>
@@ -1086,6 +1101,7 @@ To successfully aggregate reports, each of the individual sub-module reports mus
         <reportsDirectory implementation="java.io.File" default-value="${project.build.directory}/pit-reports">${reportsDirectory}</reportsDirectory>
         <scmRootDir implementation="java.io.File" default-value="${project.parent.basedir}">${scmRootDir}</scmRootDir>
         <skip implementation="boolean" default-value="false"/>
+        <skipFailingTests implementation="boolean" default-value="false"/>
         <skipTests implementation="boolean" default-value="false"/>
         <targetClasses implementation="java.util.ArrayList">${targetClasses}</targetClasses>
         <targetTests implementation="java.util.ArrayList">${targetTests}</targetTests>

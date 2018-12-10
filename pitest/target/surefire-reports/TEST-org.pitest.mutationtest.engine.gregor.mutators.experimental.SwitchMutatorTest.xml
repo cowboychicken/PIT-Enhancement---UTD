@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.377" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.357" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
@@ -63,12 +63,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldOnlyCreateRequestedMutationForLookupSwitches" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.025"/>
-  <testcase name="shouldReplaceOtherCasesWithoutDefaultForInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.095"/>
-  <testcase name="shouldSwapFirstCaseWithDefaultForChar" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.036"/>
-  <testcase name="shouldSwapFirstCaseWithDefaultForEnum" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.038"/>
-  <testcase name="shouldReplaceOtherCasesWithDefaultForInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.109"/>
-  <testcase name="shouldOnlyCreateRequestedMutationForTableSwitches" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.032"/>
-  <testcase name="shouldProvideAMeaningfulName" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.002"/>
-  <testcase name="shouldSwapFirstCaseWithDefaultForInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.04"/>
+  <testcase name="shouldOnlyCreateRequestedMutationForLookupSwitches" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.022"/>
+  <testcase name="shouldReplaceOtherCasesWithoutDefaultForInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.093"/>
+  <testcase name="shouldSwapFirstCaseWithDefaultForChar" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.034"/>
+  <testcase name="shouldSwapFirstCaseWithDefaultForEnum" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.036"/>
+  <testcase name="shouldReplaceOtherCasesWithDefaultForInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.106"/>
+  <testcase name="shouldOnlyCreateRequestedMutationForTableSwitches" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.027"/>
+  <testcase name="shouldProvideAMeaningfulName" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.001"/>
+  <testcase name="shouldSwapFirstCaseWithDefaultForInt" classname="org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutatorTest" time="0.038"/>
 </testsuite>

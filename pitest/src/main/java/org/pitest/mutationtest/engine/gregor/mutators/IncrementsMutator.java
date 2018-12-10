@@ -66,5 +66,4 @@ class IncrementsMethodVisitor extends MethodVisitor {
     }
   }
 
-
 }

@@ -39,8 +39,8 @@ public enum ReturnValsMutator implements MethodMutatorFactory {
   RETURN_VALS_MUTATOR;
 
   @Override
-  public MethodVisitor create(final MutationContext context, final MethodInfo methodInfo,
-      final MethodVisitor methodVisitor) {
+  public MethodVisitor create(final MutationContext context,
+      final MethodInfo methodInfo, final MethodVisitor methodVisitor) {
     return new ReturnValsMethodVisitor(this, methodInfo, context, methodVisitor);
   }
 
@@ -58,8 +58,9 @@ public enum ReturnValsMutator implements MethodMutatorFactory {
 
 class ReturnValsMethodVisitor extends AbstractInsnMutator {
 
-  ReturnValsMethodVisitor(final MethodMutatorFactory factory, final MethodInfo methodInfo,
-      final MutationContext context, final MethodVisitor writer) {
+  ReturnValsMethodVisitor(final MethodMutatorFactory factory,
+      final MethodInfo methodInfo, final MutationContext context,
+      final MethodVisitor writer) {
     super(factory, methodInfo, context, writer);
   }
 
@@ -86,7 +87,8 @@ class ReturnValsMethodVisitor extends AbstractInsnMutator {
         mv.visitJumpInsn(Opcodes.IFNONNULL, l1);
         mv.visitTypeInsn(Opcodes.NEW, "java/lang/RuntimeException");
         mv.visitInsn(Opcodes.DUP);
-        mv.visitMethodInsn(Opcodes.INVOKESPECIAL, "java/lang/RuntimeException", "<init>", "()V", false);
+        mv.visitMethodInsn(Opcodes.INVOKESPECIAL, "java/lang/RuntimeException",
+            "<init>", "()V", false);
         mv.visitInsn(Opcodes.ATHROW);
         mv.visitLabel(l1);
         mv.visitInsn(Opcodes.ACONST_NULL);
@@ -95,7 +97,8 @@ class ReturnValsMethodVisitor extends AbstractInsnMutator {
 
       @Override
       public String decribe(final int opCode, final MethodInfo methodInfo) {
-        return "mutated return of Object value for " + methodInfo.getDescription()
+        return "mutated return of Object value for "
+            + methodInfo.getDescription()
             + " to ( if (x != null) null else throw new RuntimeException )";
       }
 
@@ -114,7 +117,8 @@ class ReturnValsMethodVisitor extends AbstractInsnMutator {
 
       @Override
       public String decribe(final int opCode, final MethodInfo methodInfo) {
-        return "replaced return of long value with value + 1 for " + methodInfo.getDescription();
+        return "replaced return of long value with value + 1 for "
+            + methodInfo.getDescription();
       }
 
     };
@@ -145,7 +149,8 @@ class ReturnValsMethodVisitor extends AbstractInsnMutator {
 
       @Override
       public String decribe(final int opCode, final MethodInfo methodInfo) {
-        return "replaced return of float value with -(x + 1) for " + methodInfo.getDescription();
+        return "replaced return of float value with -(x + 1) for "
+            + methodInfo.getDescription();
       }
 
     };
@@ -176,7 +181,8 @@ class ReturnValsMethodVisitor extends AbstractInsnMutator {
 
       @Override
       public String decribe(final int opCode, final MethodInfo methodInfo) {
-        return "replaced return of double value with -(x + 1) for " + methodInfo.getDescription();
+        return "replaced return of double value with -(x + 1) for "
+            + methodInfo.getDescription();
       }
 
     };

@@ -63,8 +63,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldReturnBytesFromClasspathInputStream" classname="org.pitest.classpath.ClassPathTest" time="0"/>
-  <testcase name="shouldAllowSubComponentsToBeSelected" classname="org.pitest.classpath.ClassPathTest" time="0.003"/>
+  <testcase name="shouldReturnBytesFromClasspathInputStream" classname="org.pitest.classpath.ClassPathTest" time="0.003"/>
+  <testcase name="shouldAllowSubComponentsToBeSelected" classname="org.pitest.classpath.ClassPathTest" time="0.002"/>
   <testcase name="shouldFindMatchingClasses" classname="org.pitest.classpath.ClassPathTest" time="0.003"/>
-  <testcase name="shouldReturnAllClassNames" classname="org.pitest.classpath.ClassPathTest" time="0.003"/>
+  <testcase name="shouldReturnAllClassNames" classname="org.pitest.classpath.ClassPathTest" time="0.001"/>
 </testsuite>

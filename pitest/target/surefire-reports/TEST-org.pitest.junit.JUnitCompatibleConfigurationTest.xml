@@ -63,8 +63,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="canParseReleaseVersion" classname="org.pitest.junit.JUnitCompatibleConfigurationTest" time="0.009"/>
+  <testcase name="canParseReleaseVersion" classname="org.pitest.junit.JUnitCompatibleConfigurationTest" time="0.008"/>
   <testcase name="canParseSnapshotVersion" classname="org.pitest.junit.JUnitCompatibleConfigurationTest" time="0"/>
   <testcase name="canParseReleaseCandidateVersion" classname="org.pitest.junit.JUnitCompatibleConfigurationTest" time="0"/>
-  <testcase name="considersPre46Invalid" classname="org.pitest.junit.JUnitCompatibleConfigurationTest" time="0"/>
+  <testcase name="considersPre46Invalid" classname="org.pitest.junit.JUnitCompatibleConfigurationTest" time="0.001"/>
 </testsuite>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.pitest.mutationtest.MutationCoverageReportSystemTest
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.008 sec - in org.pitest.mutationtest.MutationCoverageReportSystemTest

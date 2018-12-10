@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.pitest.mutationtest.DetectionStatusTest" time="0" tests="12" errors="0" skipped="0" failures="0">
+<testsuite name="org.pitest.mutationtest.DetectionStatusTest" time="0.002" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
@@ -71,8 +71,8 @@
   <testcase name="shouldConsiderMemoryErrorsAsDetected" classname="org.pitest.mutationtest.DetectionStatusTest" time="0"/>
   <testcase name="shouldConsiderNonViableMutationsToBeDetected" classname="org.pitest.mutationtest.DetectionStatusTest" time="0"/>
   <testcase name="shouldConsiderKilledMutationsToBeDetected" classname="org.pitest.mutationtest.DetectionStatusTest" time="0"/>
-  <testcase name="shouldConsiderUnCoveredKilledMutationsToBeUnDetected" classname="org.pitest.mutationtest.DetectionStatusTest" time="0"/>
+  <testcase name="shouldConsiderUnCoveredKilledMutationsToBeUnDetected" classname="org.pitest.mutationtest.DetectionStatusTest" time="0.001"/>
   <testcase name="shouldConsiderSurvivingMutationsToBeUnDetected" classname="org.pitest.mutationtest.DetectionStatusTest" time="0"/>
   <testcase name="shouldConsiderTimedOutMutationsToBeDetected" classname="org.pitest.mutationtest.DetectionStatusTest" time="0"/>
-  <testcase name="shouldConsiderUnAnalysedMutationsAsUnDetected" classname="org.pitest.mutationtest.DetectionStatusTest" time="0"/>
+  <testcase name="shouldConsiderUnAnalysedMutationsAsUnDetected" classname="org.pitest.mutationtest.DetectionStatusTest" time="0.001"/>
 </testsuite>

@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -64,7 +64,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="shouldMapTheStringUnknownToTheRightScmFileStatus" classname="org.pitest.maven.ScmStatusTest" time="0.003"/>
-  <testcase name="shouldMapTheStringAddedToTheRightScmFileStatus" classname="org.pitest.maven.ScmStatusTest" time="0"/>
+  <testcase name="shouldMapTheStringUnknownToTheRightScmFileStatus" classname="org.pitest.maven.ScmStatusTest" time="0.002"/>
+  <testcase name="shouldMapTheStringAddedToTheRightScmFileStatus" classname="org.pitest.maven.ScmStatusTest" time="0.001"/>
   <testcase name="shouldMapTheStringModifiedToTheRightScmFileStatus" classname="org.pitest.maven.ScmStatusTest" time="0"/>
 </testsuite>
